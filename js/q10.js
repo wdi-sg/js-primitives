@@ -41,8 +41,10 @@ ages.sort(function(a, b) {
 });
 
 var median = function(arr) {
-  // console.log(Math.floor(arr.length / 2));
-  return arr[Math.floor(arr.length / 2)];
+  var length = arr.length;
+  if (length % 2 === 0) {
+    return (arr[Math.floor(length / 2)] + arr[Math.floor(length / 2 - 1)]) / 2; //for even size array
+  } else return arr[Math.floor(length / 2)]; //for odd size array
 };
 
 console.log(median(ages));
