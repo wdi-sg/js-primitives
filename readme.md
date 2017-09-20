@@ -74,7 +74,6 @@ var yourFriends = [
 ];
 ```
 
-
 6.) I have a list of favorite foods below. If `Popcorn` is my favorite food and `Potato chips` my second favorite, then how would you find the rank of another food? Try finding the rank of `Pho`.
 
 ```js
