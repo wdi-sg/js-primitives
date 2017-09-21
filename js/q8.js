@@ -21,12 +21,6 @@ var foods = [
 ];
 
 
-// var arrayFav = foods.slice(4,10)
-// console.log(arrayFav);
-var favouriteFood1 = foods[4]
-var favouriteFood2 = foods[9]
-
-
 var arrayFav = []
 var findFav = function() {
 for (var i =0; i<foods.length; i++) {
