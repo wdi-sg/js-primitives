@@ -34,6 +34,7 @@ var friends = [
   'Harriet'
 ];
 ```
+console.log(friends[friends.length - 1])
 
 2.) Sort the list of `friends` above in alphabetical order.
 
