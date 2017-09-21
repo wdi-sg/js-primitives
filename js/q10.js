@@ -2,11 +2,6 @@ var ages = [83, 53, 37, 29, 60, 30, 66, 19, 59, 41, 9, 64, 19, 80, 24, 53, 70, 1
 var level = ages.sort()
 //console.log(level)
 
-    var total = 0;
-    for(i=0; i<level.length; i++){
-        total += level[i];
-    }
-
-    var mean = total/2
-
-    console.log(mean)
+var midvalue = Math.round(level.length/2)
+var mean = level[midvalue]
+console.log(mean)
