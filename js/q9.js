@@ -1,14 +1,14 @@
-age = ['Moe': 18,
-'Larry': 19,
-'Curly': 20,
-'Jane': 20,
-'Emma': 21,
-'Elizabeth': 18,
-'Elinor': 23,
-'Mary': 25,
-'Darcy': 24,
-'Grey': 18,
-'Lydia': 24,
-'Harriet': 18 ]
+ const obj = [{person:'Moe', age:18},
+              {person:'Larry', age:19},
+              {person:'Curly', age:20},
+              {person:'Jane', age:20},
+              {person:'Emma', age:21},
+              {person:'Elizabeth', age:18},
+              {person:'Elinor', age:23},
+              {person:'Mary', age:25},
+              {person:'Darcy', age:24},
+              {person:'Grey', age:18},
+              {person:'Lydia', age:24},
+              {person:'Harriet', age:18} ]
 
-console.log(age)
+console.log(obj)
