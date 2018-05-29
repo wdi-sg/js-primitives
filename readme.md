@@ -2,17 +2,14 @@
 
 ## Getting Started
 * Fork and clone this repository
-* Run `npm install` to install dependencies
 * Create a separate file for each exercise under `js`. This will make it easier to keep track of solutions
   * It may also be beneficial to copy/paste any data structures provided
 * Write JavaScript code to obtain the data prompted by each question
-* Test each file by running it in Node. Example:
+* Test each file by running it in the browser. Example:
 
 ```
-node js/name-of-file.js
+<script src="js/name-of-file.js"></script>
 ```
-
-* Run the JS linter to verify that your code meets styling guidelines. You can run `npm run lint:js`
 
 ## Exercises
 
